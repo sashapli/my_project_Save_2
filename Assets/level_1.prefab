@@ -1,0 +1,1551 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5774602089759310344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5774602089759310707}
+  - component: {fileID: 5774602089759310268}
+  - component: {fileID: 5774602089759310269}
+  - component: {fileID: 5774602089759310258}
+  - component: {fileID: 5774602089759310259}
+  - component: {fileID: 5774602089759310256}
+  - component: {fileID: 5774602089759310257}
+  - component: {fileID: 5774602089759310262}
+  - component: {fileID: 5774602089759310263}
+  - component: {fileID: 5774602089759310260}
+  - component: {fileID: 5774602089759310261}
+  m_Layer: 0
+  m_Name: level_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5774602089759310707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774602089759310344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &5774602089759310268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774602089759310344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b231fb66c01192d33dd258391d25db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dtms:
+    totalDayDuration: 540
+    manualTime: 0
+    setTimeManualy: 0
+    distanceValueCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: -0.0032678943
+        outSlope: -0.0032678943
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.01132571
+        value: -0.000037011225
+        inSlope: 1.6225461
+        outSlope: 1.6225461
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.07933509
+        value: 0.30073437
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.36559942
+        value: 0.3143208
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9912286
+        value: 0.9940307
+        inSlope: 0.66041946
+        outSlope: 0.66041946
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.6805382
+        outSlope: 0.6805382
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    distanceColorCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: -1.0251038
+        outSlope: -1.0251038
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.011325712
+        value: -0.01161003
+        inSlope: 0.10393148
+        outSlope: 0.10393148
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.07050238
+        value: 0.8476037
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.14934881
+        value: 0.94035417
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.99047697
+        value: 0.9899696
+        inSlope: 0.53030616
+        outSlope: 0.53030616
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1.0532765
+        outSlope: 1.0532765
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    setKeys: 1
+    closeLayerValue: 0.507
+    clouseLayerSaturation: 1.5
+  dayStates:
+  - name: Morning
+    duration: 0.15
+    weatherStates:
+    - mainColor: {r: 0, g: 0.32205865, b: 0.6397059, a: 1}
+      secondColor: {r: 1, g: 0.71323526, b: 0.8022312, a: 1}
+      fogColor: {r: 0.31920415, g: 0.57909256, b: 0.9044118, a: 1}
+      closeLayerValue: 0.291
+      closeLayerSaturation: 1.269
+      colorCurveKeys:
+      - time: 0.0271192
+        value: 0.53735304
+      - time: 0.34409907
+        value: 0.9805219
+      valueCurveKeys:
+      - time: 0.04468218
+        value: 0.49537674
+      - time: 0.45005846
+        value: 0.6959907
+      skyColors:
+      - {r: 0.5147059, g: 0.91933084, b: 1, a: 1}
+      - {r: 0.75735295, g: 0.9390089, b: 1, a: 1}
+      - {r: 1, g: 0.83823526, b: 0.86835706, a: 1}
+      sunColor: {r: 1, g: 1, b: 1, a: 1}
+      sunGlowColors:
+      - {r: 1, g: 0.9802231, b: 0.71323526, a: 0.222}
+      - {r: 1, g: 0.76470596, b: 0.82745105, a: 0}
+      sunFlareColors:
+      - {r: 1, g: 0.98478705, b: 0.7794118, a: 0.341}
+      - {r: 1, g: 0.68235296, b: 0.7686275, a: 0}
+      moonColor: {r: 1, g: 1, b: 1, a: 0}
+      moonGlowColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      moonFlareColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      bottomSkyGlowColors:
+      - {r: 1, g: 0.6911765, b: 0.7614605, a: 1}
+      - {r: 1, g: 0.6911765, b: 0.6397059, a: 0}
+      tWeatherTargetValue: 0
+      chance: 0
+      duration: 0
+      rainLevel: 0
+      overcastLevel: 1
+    - mainColor: {r: 0.090830445, g: 0.2509613, b: 0.5147059, a: 1}
+      secondColor: {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 1}
+      fogColor: {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 1}
+      closeLayerValue: 0.31
+      closeLayerSaturation: 1.575
+      colorCurveKeys:
+      - time: 0.10103007
+        value: 0.7443677
+      - time: 0.39764777
+        value: 0.8568313
+      valueCurveKeys:
+      - time: 0.05157723
+        value: 0.3598038
+      - time: 0.2764138
+        value: 0.73092645
+      skyColors:
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 1}
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 1}
+      - {r: 0.77719504, g: 0.8013338, b: 0.8455882, a: 1}
+      sunColor: {r: 1, g: 1, b: 1, a: 0}
+      sunGlowColors:
+      - {r: 0.9411765, g: 0.9607843, b: 1, a: 0}
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 0}
+      sunFlareColors:
+      - {r: 0.94117653, g: 0.9607844, b: 1, a: 0}
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 0}
+      moonColor: {r: 1, g: 1, b: 1, a: 0}
+      moonGlowColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      moonFlareColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      bottomSkyGlowColors:
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 1}
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 0}
+      tWeatherTargetValue: 0
+      chance: 0
+      duration: 0
+      rainLevel: 0
+      overcastLevel: 2
+    - mainColor: {r: 0.08547793, g: 0.17219466, b: 0.22794116, a: 1}
+      secondColor: {r: 0.40192476, g: 0.43924424, b: 0.46323532, a: 1}
+      fogColor: {r: 0.5804498, g: 0.6204152, b: 0.64705884, a: 1}
+      closeLayerValue: 0.299
+      closeLayerSaturation: 1.921
+      colorCurveKeys:
+      - time: 0.07050238
+        value: 0.8476037
+      - time: 0.14934881
+        value: 0.94035417
+      valueCurveKeys:
+      - time: 0.07933509
+        value: 0.30073437
+      - time: 0.36559942
+        value: 0.3143208
+      skyColors:
+      - {r: 0.34602073, g: 0.41904297, b: 0.4705882, a: 1}
+      - {r: 0.40208694, g: 0.45721048, b: 0.49264705, a: 1}
+      - {r: 0.35640135, g: 0.4259064, b: 0.4705882, a: 1}
+      sunColor: {r: 1, g: 1, b: 1, a: 0}
+      sunGlowColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      sunFlareColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      moonColor: {r: 1, g: 1, b: 1, a: 0}
+      moonGlowColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      moonFlareColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      bottomSkyGlowColors:
+      - {r: 0.39608562, g: 0.4514564, b: 0.4852941, a: 1}
+      - {r: 0.43647274, g: 0.48046738, b: 0.50735295, a: 0}
+      tWeatherTargetValue: 0
+      chance: 0
+      duration: 0
+      rainLevel: 0
+      overcastLevel: 3
+  - name: Day
+    duration: 0.3
+    weatherStates:
+    - mainColor: {r: 0, g: 0.59704447, b: 1, a: 1}
+      secondColor: {r: 0.8308824, g: 0.98779565, b: 1, a: 1}
+      fogColor: {r: 0.31093207, g: 0.49699458, b: 0.5955882, a: 1}
+      closeLayerValue: 0.277
+      closeLayerSaturation: 1.4
+      colorCurveKeys:
+      - time: 0.0473152
+        value: 0.15528221
+      - time: 0.48796073
+        value: 0.6580889
+      valueCurveKeys:
+      - time: 0.020115986
+        value: 0.33319008
+      - time: 0.2606625
+        value: 0.7140749
+      skyColors:
+      - {r: 0.43382353, g: 0.95448834, b: 1, a: 1}
+      - {r: 0.61764705, g: 0.9698142, b: 1, a: 1}
+      - {r: 0.7058823, g: 0.9767801, b: 1, a: 1}
+      sunColor: {r: 1, g: 1, b: 1, a: 1}
+      sunGlowColors:
+      - {r: 1, g: 1, b: 1, a: 1}
+      - {r: 1, g: 1, b: 1, a: 0}
+      sunFlareColors:
+      - {r: 1, g: 1, b: 1, a: 1}
+      - {r: 1, g: 1, b: 1, a: 0}
+      moonColor: {r: 1, g: 1, b: 1, a: 0}
+      moonGlowColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      moonFlareColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      bottomSkyGlowColors:
+      - {r: 0.8455882, g: 0.9876471, b: 1, a: 1}
+      - {r: 0.7058824, g: 0.97647065, b: 1, a: 0}
+      tWeatherTargetValue: 0
+      chance: 0
+      duration: 0
+      rainLevel: 0
+      overcastLevel: 0
+    - mainColor: {r: 0.09019608, g: 0.2509804, b: 0.5137255, a: 1}
+      secondColor: {r: 0.9044118, g: 0.9362745, b: 1, a: 1}
+      fogColor: {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 1}
+      closeLayerValue: 0.282
+      closeLayerSaturation: 1.417
+      colorCurveKeys:
+      - time: 0.033925362
+        value: 0.7177631
+      - time: 0.19554207
+        value: 0.96443
+      valueCurveKeys:
+      - time: 0.06262569
+        value: 0.39760876
+      - time: 0.2564745
+        value: 0.7819466
+      skyColors:
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 1}
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 1}
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 1}
+      sunColor: {r: 1, g: 1, b: 1, a: 0}
+      sunGlowColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 0}
+      sunFlareColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 0.69803923, g: 0.7411765, b: 0.7411765, a: 0}
+      moonColor: {r: 1, g: 1, b: 1, a: 0}
+      moonGlowColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      moonFlareColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      bottomSkyGlowColors:
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 1}
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 0}
+      tWeatherTargetValue: 0
+      chance: 0
+      duration: 0
+      rainLevel: 0
+      overcastLevel: 0
+    - mainColor: {r: 0, g: 0.1497184, b: 0.24264705, a: 1}
+      secondColor: {r: 0.3458045, g: 0.36696416, b: 0.38235295, a: 1}
+      fogColor: {r: 0.5803922, g: 0.61960787, b: 0.64705884, a: 1}
+      closeLayerValue: 0.299
+      closeLayerSaturation: 1.921
+      colorCurveKeys:
+      - time: 0.05453737
+        value: 0.6413954
+      - time: 0.37868378
+        value: 0.83999056
+      valueCurveKeys:
+      - time: 0.036084473
+        value: 0.27405798
+      - time: 0.31744012
+        value: 0.28542212
+      skyColors:
+      - {r: 0.3019608, g: 0.36862746, b: 0.41176474, a: 1}
+      - {r: 0.4039216, g: 0.45882356, b: 0.49411768, a: 1}
+      - {r: 0.22352943, g: 0.26666668, b: 0.29411766, a: 1}
+      sunColor: {r: 1, g: 1, b: 1, a: 0}
+      sunGlowColors:
+      - {r: 0.36764705, g: 0.36764705, b: 0.36764705, a: 0}
+      - {r: 0.36862746, g: 0.36862746, b: 0.36862746, a: 0}
+      sunFlareColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      moonColor: {r: 1, g: 1, b: 1, a: 0}
+      moonGlowColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      moonFlareColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      bottomSkyGlowColors:
+      - {r: 0.39607847, g: 0.45098042, b: 0.48627454, a: 1}
+      - {r: 0.3803922, g: 0.42352945, b: 0.4431373, a: 0}
+      tWeatherTargetValue: 0
+      chance: 0
+      duration: 0
+      rainLevel: 0
+      overcastLevel: 0
+  - name: Evening
+    duration: 0.15
+    weatherStates:
+    - mainColor: {r: 0.21076374, g: 0.19982699, b: 0.35294116, a: 1}
+      secondColor: {r: 0.9632353, g: 0.7596102, b: 0.63743514, a: 1}
+      fogColor: {r: 1, g: 0.8924949, b: 0.85294116, a: 1}
+      closeLayerValue: 0.257
+      closeLayerSaturation: 1.257
+      colorCurveKeys:
+      - time: 0.07234928
+        value: 0.18064262
+      - time: 0.37256774
+        value: 0.7399153
+      valueCurveKeys:
+      - time: 0.08794783
+        value: 0.43728572
+      - time: 0.4501042
+        value: 0.69598633
+      skyColors:
+      - {r: 0.39551413, g: 0.38408306, b: 0.5441177, a: 1}
+      - {r: 1, g: 0.61764705, b: 0.6413793, a: 1}
+      - {r: 1, g: 0.8693711, b: 0.58823526, a: 1}
+      sunColor: {r: 1, g: 1, b: 1, a: 1}
+      sunGlowColors:
+      - {r: 1, g: 0.86549425, b: 0.625, a: 0.547}
+      - {r: 0.76470596, g: 0.5803922, b: 0.6156863, a: 0}
+      sunFlareColors:
+      - {r: 1, g: 0.8922923, b: 0.6102941, a: 0.234}
+      - {r: 0.8745099, g: 0.6627451, b: 0.7058824, a: 0}
+      moonColor: {r: 1, g: 1, b: 1, a: 0}
+      moonGlowColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      moonFlareColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      bottomSkyGlowColors:
+      - {r: 1, g: 0.79959434, b: 0.61764705, a: 1}
+      - {r: 0.72156864, g: 0.6313726, b: 0.64705884, a: 0}
+      tWeatherTargetValue: 0
+      chance: 0
+      duration: 0
+      rainLevel: 0
+      overcastLevel: 0
+    - mainColor: {r: 0.09019608, g: 0.2509804, b: 0.5137255, a: 1}
+      secondColor: {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 1}
+      fogColor: {r: 0.24705884, g: 0.38431376, b: 0.42352945, a: 1}
+      closeLayerValue: 0.32
+      closeLayerSaturation: 1.4
+      colorCurveKeys:
+      - time: 0.05475908
+        value: 0.5745417
+      - time: 0.27713487
+        value: 0.87853473
+      valueCurveKeys:
+      - time: 0.08130175
+        value: 0.60951483
+      - time: 0.25745103
+        value: 0.7819695
+      skyColors:
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 1}
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 1}
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 1}
+      sunColor: {r: 1, g: 1, b: 1, a: 0}
+      sunGlowColors:
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 0}
+      - {r: 0.24705884, g: 0.38431376, b: 0.42352945, a: 0}
+      sunFlareColors:
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 0}
+      - {r: 0.24705884, g: 0.38431376, b: 0.42352945, a: 0}
+      moonColor: {r: 1, g: 1, b: 1, a: 0}
+      moonGlowColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      moonFlareColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      bottomSkyGlowColors:
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 1}
+      - {r: 0.77647066, g: 0.8000001, b: 0.8470589, a: 0}
+      tWeatherTargetValue: 0
+      chance: 0
+      duration: 0
+      rainLevel: 0
+      overcastLevel: 0
+    - mainColor: {r: 0, g: 0.14901961, b: 0.24313727, a: 1}
+      secondColor: {r: 0.3372549, g: 0.3529412, b: 0.36078432, a: 0}
+      fogColor: {r: 0.24705884, g: 0.38431376, b: 0.42352945, a: 1}
+      closeLayerValue: 0.244
+      closeLayerSaturation: 1.771
+      colorCurveKeys:
+      - time: 0.04885507
+        value: 0.59286547
+      - time: 0.40692544
+        value: 0.8284301
+      valueCurveKeys:
+      - time: 0.08425582
+        value: 0.2619824
+      - time: 0.39216104
+        value: 0.29997295
+      skyColors:
+      - {r: 0.3019608, g: 0.36862746, b: 0.41176474, a: 1}
+      - {r: 0.3529412, g: 0.40000004, b: 0.43137258, a: 1}
+      - {r: 0.4039216, g: 0.45882356, b: 0.49411768, a: 1}
+      sunColor: {r: 1, g: 1, b: 1, a: 0}
+      sunGlowColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      sunFlareColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      moonColor: {r: 1, g: 1, b: 1, a: 0}
+      moonGlowColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      moonFlareColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      bottomSkyGlowColors:
+      - {r: 0.4039216, g: 0.45882356, b: 0.49411768, a: 1}
+      - {r: 0.4039216, g: 0.45882356, b: 0.49411768, a: 0}
+      tWeatherTargetValue: 0
+      chance: 0
+      duration: 0
+      rainLevel: 0
+      overcastLevel: 0
+  - name: Night
+    duration: 0.4
+    weatherStates:
+    - mainColor: {r: 0.12164793, g: 0.19187377, b: 0.33088237, a: 1}
+      secondColor: {r: 0.2627451, g: 0.3647059, b: 0.4784314, a: 1}
+      fogColor: {r: 0.18431373, g: 0.28627452, b: 0.38431376, a: 1}
+      closeLayerValue: 0.226
+      closeLayerSaturation: 1.085
+      colorCurveKeys:
+      - time: 0.09788871
+        value: 0.45548078
+      - time: 0.4188353
+        value: 0.6862033
+      valueCurveKeys:
+      - time: 0.06927244
+        value: 0.2411749
+      - time: 0.59550965
+        value: 0.3108194
+      skyColors:
+      - {r: 0.20225996, g: 0.24049403, b: 0.31617647, a: 1}
+      - {r: 0.17922793, g: 0.2629633, b: 0.375, a: 1}
+      - {r: 0.28465614, g: 0.3684783, b: 0.47794116, a: 1}
+      sunColor: {r: 1, g: 1, b: 1, a: 0}
+      sunGlowColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      sunFlareColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 0.8745099, g: 0.8745099, b: 0.8745099, a: 0}
+      moonColor: {r: 1, g: 1, b: 1, a: 1}
+      moonGlowColors:
+      - {r: 0.7205882, g: 0.8843815, b: 1, a: 0.153}
+      - {r: 0.18431373, g: 0.28627452, b: 0.38431376, a: 0}
+      moonFlareColors:
+      - {r: 0.5661765, g: 0.8529763, b: 1, a: 0.234}
+      - {r: 0.18431373, g: 0.28627452, b: 0.38431376, a: 0}
+      bottomSkyGlowColors:
+      - {r: 0.2635705, g: 0.36540738, b: 0.47794116, a: 1}
+      - {r: 0.29411766, g: 0.37254903, b: 0.47058827, a: 0}
+      tWeatherTargetValue: 0
+      chance: 0
+      duration: 0
+      rainLevel: 0
+      overcastLevel: 0
+    - mainColor: {r: 0.121568635, g: 0.19215688, b: 0.32941177, a: 1}
+      secondColor: {r: 0.2627451, g: 0.3647059, b: 0.4784314, a: 0}
+      fogColor: {r: 0.18431373, g: 0.28627452, b: 0.38431376, a: 1}
+      closeLayerValue: 0.245
+      closeLayerSaturation: 1.159
+      colorCurveKeys:
+      - time: 0.082285
+        value: 0.46472424
+      - time: 0.4855803
+        value: 0.6293779
+      valueCurveKeys:
+      - time: 0.1088364
+        value: 0.31286997
+      - time: 0.37053877
+        value: 0.33638275
+      skyColors:
+      - {r: 0.20392159, g: 0.2392157, b: 0.31764707, a: 1}
+      - {r: 0.18039216, g: 0.2627451, b: 0.37647063, a: 1}
+      - {r: 0.28627452, g: 0.36862746, b: 0.4784314, a: 1}
+      sunColor: {r: 1, g: 1, b: 1, a: 0}
+      sunGlowColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      sunFlareColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      moonColor: {r: 1, g: 1, b: 1, a: 0}
+      moonGlowColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      moonFlareColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      bottomSkyGlowColors:
+      - {r: 0.2627451, g: 0.3647059, b: 0.4784314, a: 1}
+      - {r: 0.29411766, g: 0.37254903, b: 0.47058827, a: 0}
+      tWeatherTargetValue: 0
+      chance: 0
+      duration: 0
+      rainLevel: 0
+      overcastLevel: 0
+    - mainColor: {r: 0.072123714, g: 0.12791204, b: 0.21323532, a: 1}
+      secondColor: {r: 0.188311, g: 0.24158828, b: 0.31617647, a: 0}
+      fogColor: {r: 0.23713236, g: 0.28965336, b: 0.375, a: 1}
+      closeLayerValue: 0.248
+      closeLayerSaturation: 1.203
+      colorCurveKeys:
+      - time: 0.07147421
+        value: 0.57829374
+      - time: 0.2653035
+        value: 0.6733285
+      valueCurveKeys:
+      - time: 0.0832777
+        value: 0.20133789
+      - time: 0.46598983
+        value: 0.18853283
+      skyColors:
+      - {r: 0.1254902, g: 0.19607845, b: 0.2901961, a: 1}
+      - {r: 0.18823531, g: 0.2509804, b: 0.3529412, a: 1}
+      - {r: 0.24313727, g: 0.30588236, b: 0.40784317, a: 1}
+      sunColor: {r: 1, g: 1, b: 1, a: 0}
+      sunGlowColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      sunFlareColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      moonColor: {r: 1, g: 1, b: 1, a: 0}
+      moonGlowColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      moonFlareColors:
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      bottomSkyGlowColors:
+      - {r: 0.24313727, g: 0.30588236, b: 0.40784317, a: 1}
+      - {r: 0.24313727, g: 0.30588236, b: 0.40784317, a: 0}
+      tWeatherTargetValue: 0
+      chance: 0
+      duration: 0
+      rainLevel: 0
+      overcastLevel: 0
+  interpolatedDayState:
+    name: Morning
+    duration: 0.22500001
+    weatherStates:
+    - mainColor: {r: 0, g: 0, b: 0, a: 0}
+      secondColor: {r: 0, g: 0, b: 0, a: 0}
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      closeLayerValue: 0.32
+      closeLayerSaturation: 1.4
+      colorCurveKeys:
+      - time: 0.03410631
+        value: 0.144488
+      - time: 0.2879381
+        value: 0.5010018
+      valueCurveKeys:
+      - time: 0.03410631
+        value: 0.144488
+      - time: 0.2879381
+        value: 0.5010018
+      skyColors:
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      sunColor: {r: 0, g: 0, b: 0, a: 0}
+      sunGlowColors: []
+      sunFlareColors:
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      moonColor: {r: 0, g: 0, b: 0, a: 0}
+      moonGlowColors: []
+      moonFlareColors: []
+      bottomSkyGlowColors:
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      tWeatherTargetValue: 0
+      chance: 0
+      duration: 0
+      rainLevel: 0
+      overcastLevel: 0
+    - mainColor: {r: 0, g: 0, b: 0, a: 0}
+      secondColor: {r: 0, g: 0, b: 0, a: 0}
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      closeLayerValue: 0.32
+      closeLayerSaturation: 1.4
+      colorCurveKeys:
+      - time: 0.03410631
+        value: 0.144488
+      - time: 0.2879381
+        value: 0.5010018
+      valueCurveKeys:
+      - time: 0.03410631
+        value: 0.144488
+      - time: 0.2879381
+        value: 0.5010018
+      skyColors:
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      sunColor: {r: 0, g: 0, b: 0, a: 0}
+      sunGlowColors: []
+      sunFlareColors:
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      moonColor: {r: 0, g: 0, b: 0, a: 0}
+      moonGlowColors: []
+      moonFlareColors: []
+      bottomSkyGlowColors:
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      tWeatherTargetValue: 0
+      chance: 0
+      duration: 0
+      rainLevel: 0
+      overcastLevel: 0
+    - mainColor: {r: 0, g: 0, b: 0, a: 0}
+      secondColor: {r: 0, g: 0, b: 0, a: 0}
+      fogColor: {r: 0, g: 0, b: 0, a: 0}
+      closeLayerValue: 0.32
+      closeLayerSaturation: 1.4
+      colorCurveKeys:
+      - time: 0.03410631
+        value: 0.144488
+      - time: 0.2879381
+        value: 0.5010018
+      valueCurveKeys:
+      - time: 0.03410631
+        value: 0.144488
+      - time: 0.2879381
+        value: 0.5010018
+      skyColors:
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      sunColor: {r: 0, g: 0, b: 0, a: 0}
+      sunGlowColors: []
+      sunFlareColors:
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      moonColor: {r: 0, g: 0, b: 0, a: 0}
+      moonGlowColors: []
+      moonFlareColors: []
+      bottomSkyGlowColors:
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      tWeatherTargetValue: 0
+      chance: 0
+      duration: 0
+      rainLevel: 0
+      overcastLevel: 0
+  materialsToModify:
+  - {fileID: 2100000, guid: 29dd1739036cb0f41b3a541ebfd4c3a8, type: 2}
+  - {fileID: 2100000, guid: 50cbeb0f7ed136c478e9d9757c71e998, type: 2}
+  materialsToColorize:
+  - {fileID: 2100000, guid: 6885b1877c699db48bca9c9f46a598fe, type: 2}
+  fogHeight:
+    Middle: 1.4
+    AddColor: 177.6
+--- !u!114 &5774602089759310269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774602089759310344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53d79de9e1d094196054b3180f94d3f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tWeather: 0
+  tSetManually: 0
+  weatherTypes:
+  - weatherTypeName: 0
+    tWeatherTargetValue: 0
+    chance: 0.6
+    duration: 40
+    rainLevel: 0
+    overCastLevel: 0.25
+  - weatherTypeName: 1
+    tWeatherTargetValue: 1
+    chance: 0.2
+    duration: 40
+    rainLevel: 0.1
+    overCastLevel: 0.5
+  - weatherTypeName: 2
+    tWeatherTargetValue: 1.5
+    chance: 0.1
+    duration: 40
+    rainLevel: 0.1
+    overCastLevel: 0.75
+  - weatherTypeName: 3
+    tWeatherTargetValue: 2
+    chance: 0.1
+    duration: 40
+    rainLevel: 1
+    overCastLevel: 1
+  currentWeatherType:
+    weatherTypeName: 0
+    tWeatherTargetValue: 0
+    chance: 0
+    duration: 0
+    rainLevel: 0
+    overCastLevel: 0
+  targetWeatherType:
+    weatherTypeName: 0
+    tWeatherTargetValue: 0
+    chance: 0
+    duration: 0
+    rainLevel: 0
+    overCastLevel: 0
+  rainCaster: {fileID: 0}
+--- !u!114 &5774602089759310258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774602089759310344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e2e0dc239c8c575947c1ec357db11c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rainTreshold: 0.5
+  maxEmissionRate: 300
+  audioSource: {fileID: 0}
+  volumeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.0012207031
+      inSlope: 0
+      outSlope: -0.0024395597
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5003785
+      value: 0
+      inSlope: 0
+      outSlope: 3.0113971
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.6
+      value: 0.3
+      inSlope: 2.8389692
+      outSlope: 0.5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  rainCaster: {fileID: 0}
+--- !u!114 &5774602089759310259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774602089759310344}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9278ecd3b001dde6b82c73e6cc8beb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overcast: 0
+  cloudObjects:
+  - cloudGameObject: {fileID: 0}
+    alphaTreshold: 0
+    maxAlpha: 1
+  - cloudGameObject: {fileID: 0}
+    alphaTreshold: 0
+    maxAlpha: 1
+  - cloudGameObject: {fileID: 0}
+    alphaTreshold: 0
+    maxAlpha: 1
+  - cloudGameObject: {fileID: 0}
+    alphaTreshold: 0
+    maxAlpha: 1
+  - cloudGameObject: {fileID: 0}
+    alphaTreshold: 0
+    maxAlpha: 1
+  - cloudGameObject: {fileID: 0}
+    alphaTreshold: 0
+    maxAlpha: 1
+  - cloudGameObject: {fileID: 0}
+    alphaTreshold: 0
+    maxAlpha: 1
+  - cloudGameObject: {fileID: 0}
+    alphaTreshold: 0
+    maxAlpha: 1
+  cloudMaterial: {fileID: 2100000, guid: 8903e45b7cb57df4cb61275408980992, type: 2}
+--- !u!114 &5774602089759310256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774602089759310344}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f26932da5d048fc7801ad9789f5ee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zeusObjects:
+  - zeusGameObject: {fileID: 0}
+  energy: 0
+--- !u!114 &5774602089759310257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774602089759310344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f130de4960f9b537906195b967125ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sunMoonTransform: {fileID: 0}
+  sunMoonObject: {fileID: 0}
+  sunGo: {fileID: 0}
+  sunFlareGo: {fileID: 0}
+  sunGlowGo: {fileID: 0}
+  sunRend: {fileID: 0}
+  sunFlareRend: {fileID: 0}
+  sunGlowRend: {fileID: 0}
+  moonGo: {fileID: 0}
+  moonFlareGo: {fileID: 0}
+  moonGlowGo: {fileID: 0}
+  moonRend: {fileID: 0}
+  moonFlareRend: {fileID: 0}
+  moonGlowRend: {fileID: 0}
+  bottomSkyGlow: {fileID: 0}
+  bottomSkyGlowRend: {fileID: 0}
+  moonOpacityByTime:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.8791271
+      value: 0
+      inSlope: Infinity
+      outSlope: 0.0054296106
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 2.228434
+      value: 0.0029349113
+      inSlope: 0.014589013
+      outSlope: 0.014589013
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 2.8039365
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 4
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  sunFlareOpacityByTime:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.9772763
+      value: 0.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.9890788
+      value: -0.0058068037
+      inSlope: -0.37297606
+      outSlope: -0.37297606
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 2.850737
+      value: 0.0035946146
+      inSlope: 0.0058080954
+      outSlope: 0.0058080954
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 4
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &5774602089759310262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774602089759310344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d47b2dc88cd0dc782982302942710b04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5774602089759310263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774602089759310344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e96b2ced7dd75eaefa1435d9389028, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levels: 0
+  branchesOnLevel: 0
+  startPos: {x: 10.74, y: 500, z: 40}
+  endPos: {x: -373.8, y: -1000, z: 20}
+  branchGenerationDelay: 0.03
+  zeusBranchPrefab: {fileID: 1342665100589330, guid: dc8777a995205b9439d4be37c5fd0c8c, type: 3}
+  zeusLevels:
+  - branchesCount: 0
+  seed: 214
+  totalBranchesCount: 0
+  thunderAudio:
+  - {fileID: 8300000, guid: a7021841ae4d3e8418476f391fdee569, type: 3}
+  - {fileID: 8300000, guid: ea78323ed9f88094490ffcf8bc3c32c8, type: 3}
+  - {fileID: 8300000, guid: 35ee9e6f6b74b5148968f979755259cb, type: 3}
+  - {fileID: 8300000, guid: eb8156bb788b9424781da457fe13a8a8, type: 3}
+  - {fileID: 8300000, guid: ee7c76292ba1c8f478cba1583e13d164, type: 3}
+  - {fileID: 8300000, guid: 091b6aa17c8a3234198efe9e9086ebab, type: 3}
+  - {fileID: 8300000, guid: 555dd6feffcfce24d94b354a79e8813b, type: 3}
+  energy: 0
+--- !u!114 &5774602089759310260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774602089759310344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2562f969b7a56e46349a960b8595b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambienceAudio:
+  - name: DaySounds
+    audioSource: {fileID: 0}
+    volumeByTime:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.49962148
+        value: 1.0017395
+        inSlope: 0
+        outSlope: Infinity
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.5133781
+        value: 0.9978408
+        inSlope: Infinity
+        outSlope: -0.7390976
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.996669
+        value: 0
+        inSlope: -0.41991472
+        outSlope: Infinity
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.9
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 4
+        value: 0.1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    volumeByWeather:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: Infinity
+        outSlope: 1.5002489
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.2985822
+        value: 0.43747032
+        inSlope: 1.3816357
+        outSlope: 1.3816357
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2
+        value: 1
+        inSlope: -0.045895576
+        outSlope: 0.048600994
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+  - name: DaySounds
+    audioSource: {fileID: 0}
+    volumeByTime:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: 0
+        inSlope: 0
+        outSlope: Infinity
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.9119897
+        value: 0
+        inSlope: Infinity
+        outSlope: 0.7364154
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.1
+        value: 1
+        inSlope: 0
+        outSlope: Infinity
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.7692451
+        value: 1
+        inSlope: Infinity
+        outSlope: -0.7390976
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 4.1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    volumeByWeather:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: Infinity
+        outSlope: 1.5002489
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2
+        value: 1
+        inSlope: -0.045895576
+        outSlope: 0.048600994
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+  - name: WindSounds
+    audioSource: {fileID: 0}
+    volumeByTime:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    volumeByWeather:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+--- !u!114 &5774602089759310261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774602089759310344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9615549ec4271198b55774c56ef30ba8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  starSprite: {fileID: 21300000, guid: f0ed4d69551ebdc42beba74ec856b376, type: 2}
+  material: {fileID: 2100000, guid: 019edbaf1dee3254db445e7ae25c4fad, type: 2}
+  n: 100
+  alphaByTime:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 2
+      value: 0
+      inSlope: Infinity
+      outSlope: 0.37401915
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 2.671479
+      value: 0.7139696
+      inSlope: 2.631545
+      outSlope: 2.631545
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 3
+      value: 1
+      inSlope: -0.00070780516
+      outSlope: -0.00070780516
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 3.3325517
+      value: 0.8315224
+      inSlope: -1.5485287
+      outSlope: -1.5485287
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 3.7715032
+      value: 0
+      inSlope: -0.08795876
+      outSlope: Infinity
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 4
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  alphaByWeather:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 1
+      inSlope: Infinity
+      outSlope: -0.13589859
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.39070845
+      outSlope: Infinity
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 4
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  starsHolder: {fileID: 0}
+  starAlpha: 1
